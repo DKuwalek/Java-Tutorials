@@ -11,19 +11,25 @@ public class Literals {
 
 	Values of the integral types byte, short, int, and long can be created from int literals.
 	Values of type long that exceed the range of int can be created from long literals.
+	
 	Integer literals can be expressed by these number systems:
 
-	Decimal: Base 10, whose digits consists of the numbers 0 through 9; this is the number system you use every day
-	Hexadecimal: Base 16, whose digits consist of the numbers 0 through 9 and the letters A through F
-	Binary: Base 2, whose digits consists of the numbers 0 and 1 (you can create binary literals in Java SE 7 and later)
+		Decimal: Base 10, whose digits consists of the numbers 0 through 9; this is the number system you use every day
+	
+		Hexadecimal: Base 16, whose digits consist of the numbers 0 through 9 and the letters A through F
+	
+		Binary: Base 2, whose digits consists of the numbers 0 and 1 (you can create binary literals in Java SE 7 and later)
+	
 	For general-purpose programming, the decimal system is likely to be the only number system you'll ever use.
 	However, if you need to use another number system, the following example shows the correct syntax.
 	The prefix 0x indicates hexadecimal and 0b indicates binary:
 
 	// The number 26, in decimal
 	int decVal = 26;
+	
 	//  The number 26, in hexadecimal
 	int hexVal = 0x1a;
+	
 	// The number 26, in binary
 	int binVal = 0b11010;
 
