@@ -39,8 +39,8 @@ public class Literals {
 	public static void main(String[] bambooWall)
 	{	
 
-		//	The number 26, in binary
-		//	int binVal = 0b11010;
+		//The number 26, in binary
+		//int binVal = 0b11010;
 
 		//MIN MAX PRIMITIVE TYPES
 
