@@ -65,6 +65,7 @@ public class Literals {
 		System.out.println();
 
 		//int - 32 bit of memory - fill up with ones - 31 ones
+		// _ is used to separate every 10 numbers
 		int maxInt =  0b1111111111_1111111111_1111111111_1+0;
 		int minInt = -0b1111111111_1111111111_1111111111_1-1;
 		int minInt2=  0b1111111111_1111111111_1111111111_1+1; // maxInt + 1
