@@ -36,42 +36,43 @@ public class Literals {
 		
 		//MIN MAX PRIMITIVE TYPES
 		
-		//byte - 8 bity pamieci - zape³niamy na maksa - jedynkami - 7 jedynek
+		//byte - 8 bit of memory - fill up with ones - 7 ones
 		byte maxByte =  0b1111111+0;
 		byte minByte = -0b1111111-1;
 		byte minByte2= 	(byte)(0b1111111+1);// maxByte + 1
 		
-		System.out.println("Gorna granica byte: "+ maxByte);
-		System.out.println("Dolna granica byte:" + minByte);
-		System.out.println("Dolna granica byte:" + minByte2);
+		System.out.println("Max value:	 "+ maxByte);
+		System.out.println("Min value byte:	" + minByte);
+		System.out.println("Min value byte:	" + minByte2);
 		System.out.println();
 		
-		//short - 16 bity pamieci - zape³niamy na maksa - jedynkami - 15 jedynek
+		//short - 16 bit of memory - fill up with ones - 15 ones
 		short maxShort =  0b111111111111111+0;
 		short minShort = -0b111111111111111-1;
 		short minShort2 = (short)(0b111111111111111+1); // maxShort + 1
 				
-		System.out.println("Gorna granica short: " + maxShort);
-		System.out.println("Dolna granica short:"  + minShort);
-		System.out.println("Dolna granica short:"  + minShort2);
+		System.out.println("Max value short: " + maxShort);
+		System.out.println("Min value short:"  + minShort);
+		System.out.println("Min value short:"  + minShort2);
 		System.out.println();
 		
-		//int - 32 bity pamieci - zape³niamy na maksa - jedynkami - 31 jedynek
+		//int - 32 bit of memory - fill up with ones - 31 ones
 		int maxInt =  0b1111111111111111111111111111111+0;
 		int minInt = -0b1111111111111111111111111111111-1;
 		int minInt2=  0b1111111111111111111111111111111+1; // maxInt + 1
-		System.out.println("Gorna granica int: " + maxInt);
-		System.out.println("Dolna granica int:"  + minInt);
-		System.out.println("Dolna granica int:"  + minInt2);
+		System.out.println("Max value int:	 " + maxInt);
+		System.out.println("Min value int:	"  + minInt);
+		System.out.println("Min value int:	"  + minInt2);
 		System.out.println();
 		
-		//long - 64 bity pamieci - zape³niamy na maksa - jedynkami - 63 jedynki
+		//long - 64 bit of memory - fill up with ones - 63 ones
 		
-		long maxLong =  0b111111111111111111111111111111111111111111111111111111111111111L+0; // 'L' na koncu liczby wskazuje ze jest to long
+		// 'L' in the end determines it as type: long                                   'L' in this column
+		long maxLong =  0b111111111111111111111111111111111111111111111111111111111111111L+0; 
 		long minLong = -0b111111111111111111111111111111111111111111111111111111111111111L-1;
 		long minLong2=  0b111111111111111111111111111111111111111111111111111111111111111L+1;// maxLong + 1
-		System.out.println("Gorna granica long: " + maxLong);
-		System.out.println("Dolna granica long:"  + minLong);
-		System.out.println("Dolna granica long:"  + minLong2);
+		System.out.println("Max value long:  " + maxLong);
+		System.out.println("Min value long:	"  + minLong);
+		System.out.println("Min value long:	"  + minLong2);
 	}
 }
