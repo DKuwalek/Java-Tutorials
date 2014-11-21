@@ -39,8 +39,8 @@ public class Literals {
 	public static void main(String[] bambooWall)
 	{	
 
-		//The number 26, in binary
-		//int binVal = 0b11010;
+		//	The number 26, in binary
+		//	int binVal = 0b11010;
 
 		//MIN MAX PRIMITIVE TYPES
 
@@ -65,9 +65,9 @@ public class Literals {
 		System.out.println();
 
 		//int - 32 bit of memory - fill up with ones - 31 ones
-		int maxInt =  0b1111111111111111111111111111111+0;
-		int minInt = -0b1111111111111111111111111111111-1;
-		int minInt2=  0b1111111111111111111111111111111+1; // maxInt + 1
+		int maxInt =  0b1111111111_1111111111_1111111111_1+0;
+		int minInt = -0b1111111111_1111111111_1111111111_1-1;
+		int minInt2=  0b1111111111_1111111111_1111111111_1+1; // maxInt + 1
 		System.out.println("Max value int:	 " + maxInt);
 		System.out.println("Min value int:	"  + minInt);
 		System.out.println("Min value int:	"  + minInt2);
