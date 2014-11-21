@@ -1,9 +1,10 @@
 package PrimitiveTypes;
 
+///source: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
 public class Literals {
 	/*
-	source: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
-
+	
 	Integer Literals
 
 	An integer literal is of type long if it ends with the letter L or l; otherwise it is of type int.
